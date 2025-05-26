@@ -8,6 +8,7 @@ import jwt from "jsonwebtoken";
 //@access: Public
 export const registerUser = asyncHandler(async (req, res) => {
   const { username, email, password } = req.body;
+  console.log(username,email)
   if (!username || !email || !password) {
     res.status(400);
     throw new Error("All fields are mandatory!!");

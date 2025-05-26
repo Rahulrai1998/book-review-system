@@ -14,6 +14,7 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 //ROUTES
 app.use("/api/books", bookRouter);
+// app.use("/api", bookRouter);
 app.use("/api/users", userRouter);
 //ERROR HANDLER
 app.use(errorHandler);
