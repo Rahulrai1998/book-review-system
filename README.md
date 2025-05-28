@@ -37,15 +37,6 @@ git clone https://github.com/Rahulrai1998/book-review-system.git
 npm install
 ```
 
-### 3. Setup Environment Variables
-
-Create a `.env` file in the root:
-
-```env
-PORT=5001
-MONGO_URI=mongodb+srv://rahulrai2822march:rahul123@cluster0.nqomub0.mongodb.net/book-review-system?retryWrites=true&w=majority&appName=Cluster0
-JWT_SECRET=Rahul123
-```
 
 ### 4. Run the Server
 
